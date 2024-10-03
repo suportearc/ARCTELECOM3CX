@@ -21,7 +21,14 @@ const port = 3000;
 app.use(body_parser_1.default.json());
 const engenheiros = [
     { primeiroNome: "Raquel", sobrenome: "Santos", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/raquel" },
-    { primeiroNome: "Ricardo", sobrenome: "Costa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/ricardocosta" }
+    { primeiroNome: "Ricardo", sobrenome: "Costa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/ricardocosta" },
+    { primeiroNome: "Edson", sobrenome: "Holanda", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/edsonarctelecom" },
+    { primeiroNome: "Eduardo", sobrenome: "Trindade", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/eduardoarc" },
+    { primeiroNome: "Maxsuel", sobrenome: "Batista", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/maxsuelbatista" },
+    { primeiroNome: "Ricardo", sobrenome: "Okabayashi", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/ricardo" },
+    { primeiroNome: "Gilberto", sobrenome: "Fernandes", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/gilbertoarc" },
+    { primeiroNome: "Caroline", sobrenome: "Franco", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/carolinefrancorharc" },
+    { primeiroNome: "Jéssica", sobrenome: "Barbosa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/jessicafinanceiroarc" }
 ];
 function encontrarEngenheiroPorPrimeiroNome(primeiroNome) {
     return engenheiros.filter(e => e.primeiroNome.toLowerCase() === primeiroNome.toLowerCase());
