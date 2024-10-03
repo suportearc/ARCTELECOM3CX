@@ -66,7 +66,7 @@ app.post('/busca_engenheiros', (req, res) => __awaiter(void 0, void 0, void 0, f
     else {
         const engenheirosEncontrados = encontrarEngenheiroPorPrimeiroNome(nomeNormalizado);
         if (engenheirosEncontrados.length > 0) {
-            resposta.content = `Engenheiros encontrados com o nome '${content}':\n\n`;
+            resposta.content = `Atendentes encontrados com o nome '${content}':\n\n`;
             engenheirosEncontrados.forEach(e => {
                 var _a;
                 resposta.content += `- ${e.primeiroNome} ${(_a = e.sobrenome) !== null && _a !== void 0 ? _a : ""}:\n${e.link}\n`;
@@ -75,7 +75,7 @@ app.post('/busca_engenheiros', (req, res) => __awaiter(void 0, void 0, void 0, f
         }
         else {
             if (estagio_funcao < 4) {
-                resposta.content = `Não encontrei engenheiros com o nome '${content}'. Verifique o nome e tente novamente`;
+                resposta.content = `Não encontrei atendentes com o nome '${content}'. Verifique o nome e tente novamente`;
                 resposta.finaliza_protocolo = 0;
             }
             else {
