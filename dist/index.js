@@ -28,7 +28,7 @@ const engenheiros = [
     { primeiroNome: "Ricardo", sobrenome: "Okabayashi", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/ricardo" },
     { primeiroNome: "Gilberto", sobrenome: "Fernandes", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/gilbertoarc" },
     { primeiroNome: "Caroline", sobrenome: "Franco", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/carolinefrancorharc" },
-    { primeiroNome: "Jéssica", sobrenome: "Barbosa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/jessicafinanceiroarc" }
+    { primeiroNome: "Jessica", sobrenome: "Barbosa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/jessicafinanceiroarc" }
 ];
 function encontrarEngenheiroPorPrimeiroNome(primeiroNome) {
     return engenheiros.filter(e => e.primeiroNome.toLowerCase() === primeiroNome.toLowerCase());
