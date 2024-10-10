@@ -20,7 +20,6 @@ const app = (0, express_1.default)();
 const port = 3000;
 app.use(body_parser_1.default.json());
 const engenheiros = [
-    { primeiroNome: "Danielly", sobrenome: "Melo", link: "https://ipbxcloudarctelecom12.my3cx.com.br:5001/danielly" },
     { primeiroNome: "Ricardo", sobrenome: "Costa", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/ricardocosta" },
     { primeiroNome: "Edson", sobrenome: "Holanda", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/edsonarctelecom" },
     { primeiroNome: "Eduardo", sobrenome: "Trindade", link: "https://ipbxcloudarctelecom01.my3cx.com.br:5001/eduardoarc" },
